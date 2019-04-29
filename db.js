@@ -8,4 +8,4 @@ sequelize.authenticate()
     .then(() => console.log('connected'))
     .catch((err) => console.log(err));
     
-module.exports = sequelize;
+module.exports = sequelize; 
